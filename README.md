@@ -44,17 +44,17 @@ This is a simple e-commerce website made as part of the ReactJS Training I had d
 
 ### Homepage (List)
 
-![Picture of Homepage (List product display)](img\homepage-list.png)
+![Picture of Homepage (List product display)](img/homepage-list.png)
 
 ### Registration
 
-![Picture of registration screen](img\registration.png)
+![Picture of registration screen](img/registration.png)
 
 ### Login
 
-![Picture of login screen](img\login.png)
+![Picture of login screen](img/login.png)
 
 ### Shopping cart
 
-![Picture of shopping cart](img\shopping-cart.png)
+![Picture of shopping cart](img/shopping-cart.png)
 
