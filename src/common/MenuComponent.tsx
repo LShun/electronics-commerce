@@ -23,7 +23,7 @@ type Props = {
 
 const MenuComponent = (props:Props) => {
 
-    let title:string = "Online Bazzar";
+    let title:string = "Online Bazaar";
     let headerStyle:React.CSSProperties = {
       color:'red'
     }
@@ -37,7 +37,7 @@ const MenuComponent = (props:Props) => {
                             <div>
                                 <nav className="navbar navbar-expand-lg bg-light">
                                     <div className="container-fluid">
-                                        <span className="navbar-brand">Online Bazzar</span>
+                                        <span className="navbar-brand">Online Bazaar</span>
                                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                             <ul className="navbar-nav me-auto">
                                                 <li className="nav-item">
@@ -71,7 +71,7 @@ const MenuComponent = (props:Props) => {
                             <div>
                                 <nav className="navbar navbar-expand-lg bg-light">
                                     <div className="container-fluid">
-                                        <span className="navbar-brand">Online Bazzar</span>
+                                        <span className="navbar-brand">Online Bazaar</span>
                                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                             <ul className="navbar-nav me-auto">
                                                 <li className="nav-item">
