@@ -6,7 +6,7 @@ This is a simple e-commerce website made as part of the ReactJS Training I had d
 
 #### Homepage (Gallery product display)
 
-![Picture of Homepage (Gallery product display)](img\homepage-gallery.png)
+![Picture of Homepage (Gallery product display)](img/homepage-gallery.png)
 
 ## Pre-requisites
 
@@ -52,7 +52,7 @@ This is a simple e-commerce website made as part of the ReactJS Training I had d
 
 ### Login
 
-![Picture of login screen](img/login.png)
+![Picture of login screen](img/Login.png)
 
 ### Shopping cart
 
