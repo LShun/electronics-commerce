@@ -4,6 +4,10 @@ A simple e-commerce website powered by NodeJS, Typescript, React, and Redux.
 ## Intro
 This is a simple e-commerce website made as part of the ReactJS Training I had during my internship at Dassault Systemes. I had obtained permissions to display and share this work as part of my portfolio.
 
+#### Homepage (Gallery product display)
+
+![Picture of Homepage (Gallery product display)](img\homepage-gallery.png)
+
 ## Pre-requisites
 
 - NodeJS LTS Version 16.16.0 or later (with npm 8.11.0 installed)
@@ -36,4 +40,21 @@ This is a simple e-commerce website made as part of the ReactJS Training I had d
 - `shoppingcart` is the same as `catalog` except it handles the shopping cart side and only displays in a "list" format
 - `store` is where Redux functionality is defined especially on credentials persistence.
 
+## More examples
+
+### Homepage (List)
+
+![Picture of Homepage (List product display)](img\homepage-list.png)
+
+### Registration
+
+![Picture of registration screen](img\registration.png)
+
+### Login
+
+![Picture of login screen](img\login.png)
+
+### Shopping cart
+
+![Picture of shopping cart](img\shopping-cart.png)
 
