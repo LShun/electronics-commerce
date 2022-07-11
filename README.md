@@ -4,6 +4,10 @@ A simple e-commerce website powered by NodeJS, Typescript, React, and Redux.
 ## Intro
 This is a simple e-commerce website made as part of the ReactJS Training I had during my internship at Dassault Systemes. I had obtained permissions to display and share this work as part of my portfolio.
 
+## Pre-requisites
+
+- NodeJS LTS Version 16.16.0 or later (with npm 8.11.0 installed)
+
 ## How to use
 
 - Clone the repository.
@@ -17,10 +21,19 @@ This is a simple e-commerce website made as part of the ReactJS Training I had d
 - Open powershell into the root of the project folder (with `package.json`)
 - Type `npm install` to install dependencies of the project
 - Type `npm start` to start the project
-- Go to `http://localhost:3001` 
+- Go to `http://localhost:3001` (change port depending on your settings)
 
-## Pre-requisites
+## Contents
 
-- NodeJS LTS Version 16.16.0 or later (with npm 8.11.0 installed)
+- `data` folder stores the JSON database.
+- `public` folder stores site metadata, favicons, and ReactJS starting point
+- `catalog` folder provides components that are used in displaying products in a catalog fashion.
+    - `ProductGalleryComponent.tsx` displays product in a "gallery" (aka Grid-like) format.
+    - `ProductListComponent.tsx` displays product in a "list" format.
+    - `ProductsComponent.tsx` is the holder of either gallery or list of products.
+- `common` folder houses components of the website that are not part of the catalog.
+- `models` define the format for the JSON database structure & data.
+- `shoppingcart` is the same as `catalog` except it handles the shopping cart side and only displays in a "list" format
+- `store` is where Redux functionality is defined especially on credentials persistence.
 
 
