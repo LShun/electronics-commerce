@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Television",
+      "description": "For watching television",
+      "quantity": 15,
+      "price": 1455.55,
+      "photo": "https://static.toiimg.com/thumb/msid-90913181,imgsize-51552,width-400,resizemode-4/90913181.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Radio",
+      "description": "For listening to music",
+      "quantity": 52,
+      "price": 355.55,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Virginradioobstudio.jpg/400px-Virginradioobstudio.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Handphone",
+      "description": "For communication",
+      "quantity": 78,
+      "price": 580.25,
+      "photo": "https://beebom.com/wp-content/uploads/2019/05/pixel-3a-usage.jpg?w=400&h=300&crop=1&quality=75"
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "description": "For productivity activities",
+      "quantity": 5,
+      "price": 5245.75,
+      "photo": "https://venturebeat.com/wp-content/uploads/2018/11/IMG_20181119_132800.jpg?fit=400%2C300&strip=all"
+    },
+    {
+      "id": 5,
+      "name": "Computer",
+      "description": "For video games",
+      "quantity": 12,
+      "price": 3857.25,
+      "photo": "https://blog.trustana.com/hs-fs/hubfs/BLOG%20250x250%20(400%20x%20300%20px)%20(9)-3.png?width=400&name=BLOG%20250x250%20(400%20x%20300%20px)%20(9)-3.png"
+    },
+    {
+      "id": 6,
+      "name": "Tablet",
+      "description": "For mobile entertainment",
+      "quantity": 80,
+      "price": 298.25,
+      "photo": "https://static.toiimg.com/thumb/resizemode-4,width-400,msid-83599049/83599049.jpg"
+    }
+  ],
+  "shoppingcart": [
+    {
+      "id": 1,
+      "product": {
+        "id": 3,
+        "name": "Handphone",
+        "description": "For communication",
+        "quantity": 78,
+        "price": 580.25,
+        "photo": "https://beebom.com/wp-content/uploads/2019/05/pixel-3a-usage.jpg?w=400&h=300&crop=1&quality=75"
+      },
+      "requiredQuantity": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$a3PfB5lPnj9wQkjK16agku4gk/a6.OKgijyuRsC1FUbzisvReNN4G",
+      "id": 1,
+      "firstname": "Test",
+      "lastname": "User"
+    },
+    {
+      "email": "john.doe@gmail.com",
+      "password": "$2a$10$vF5Y8Z/umtLodD.VcSa/QeLyGgDtpFvU1butTip0dfVQOI5Ix5HLe",
+      "id": 2,
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    {
+      "email": "equinox.bot@gmail.com",
+      "password": "$2a$10$MZcdM4d/jjtAWN.mlVgpZeZdV6curuhMtBnd8LDnSeiLQOsEqUCUq",
+      "id": 3,
+      "firstname": "Equinox",
+      "lastname": "Bot"
+    }
+  ]
+}
