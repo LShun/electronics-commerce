@@ -84,6 +84,20 @@
       "id": 3,
       "firstname": "Equinox",
       "lastname": "Bot"
+    },
+    {
+      "id": 4,
+      "firstname": "Equinox",
+      "lastname": "Bot",
+      "email": "equinox.bot@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "firstname": "Equinox",
+      "lastname": "Bott",
+      "email": "eq.bot@gmail.com",
+      "password": "12345678910"
     }
   ]
 }
