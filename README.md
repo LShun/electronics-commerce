@@ -1,8 +1,8 @@
-# react-commerce
-A simple e-commerce website powered by NodeJS, Typescript, React, and Redux.
+# electronics-commerce
+An e-commerce website for selling electronics powered by NodeJS, Typescript, React, and Redux.
 
 ## Intro
-This is a simple e-commerce website made as part of the ReactJS Training I had during my internship at Dassault Systemes. I had obtained permissions to display and share this work as part of my portfolio.
+This is an e-commerce website for selling electronics. It was made as part of the ReactJS Training I had during my internship at Dassault Systemes. I had obtained permissions to display and share this work as part of my portfolio.
 
 #### Homepage (Gallery product display)
 
