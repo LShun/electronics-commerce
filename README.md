@@ -1,14 +1,23 @@
 # electronics-commerce
-An e-commerce website for selling electronics, built with NodeJS, TypeScript, React, Redux, and Docker. 
 
-## Intro
-This e-commerce website for selling electronics was developed as part of my ReactJS training during my internship at Dassault Systèmes. I have obtained permission to display and share this work as part of my portfolio. 
+An e-commerce website for selling electronics, built with NodeJS, TypeScript, React, Redux, and Docker with Docker support.
 
-After completing the training, I extended the project by adding Docker container support, and updated the e-commerce website to reflect real-world store. 
-
-#### Homepage (Gallery product display)
+This e-commerce website for selling electronics was developed as part of my ReactJS training during my internship at Dassault Systèmes. I have obtained permission to display and share this work as part of my portfolio. After completing the training, I extended the project by adding Docker container support, and updated the e-commerce website.
 
 ![Picture of Homepage (Gallery product display)](img/homepage-gallery.png)
+
+## Technologies Used
+
+- Programming Language: Typescript, due to type safety compared to Javascript.
+- Technologies:
+  - Node.js for backend server. Chosen due to asynchronous nature with non-blocking I/O operations, suitable for real-time applications.
+  - React, HTML, and CSS for frontend. React is chosen due to the component-based architecture for reusable components (i.e. product directory). HTML and CSS are the default choices for modern webpages. 
+  - Redux for storage and state management. Chosen due to the centralized application state which allows easier management of application behavior.
+  - Docker for containerization. Chosen to try and allow application to make deployment easier and more predictable.
+
+## Architecture
+
+This application uses a monolithic application architecture where the entire application is deployed as a single unit. The main reason this is chosen is due to the relative simplicity of the application. 
 
 ## Pre-requisites
 
@@ -49,7 +58,7 @@ After completing the training, I extended the project by adding Docker container
 - `shoppingcart` is the same as `catalog` except it handles the shopping cart side and only displays in a "list" format
 - `store` is where Redux functionality is defined especially on credentials persistence.
 
-## More examples
+## Features
 
 ### Homepage (List)
 
